@@ -17,9 +17,9 @@ function App() {
       <div className="flex items-center justify-center ">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<PostList/>} />
+            <Route path="/" element={<PostList />} />
             <Route path="/create-post" element={<PostForm />} />
-            <Route path="/edit-post/:id" element={<PostForm/>} />
+            <Route path="/edit-post/:id" element={<PostForm />} />
           </Routes>
         </BrowserRouter>
       </div>
